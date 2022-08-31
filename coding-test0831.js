@@ -27,6 +27,16 @@ if (average < 10) {
   averageKing = "over";
 }
 console.log(averageKing);
+
+random3.sort(function (a, b) {
+  if (a > b) return 1;
+  if (a < b) return -1;
+});
+// console.log(random3);
+let midKing = random3;
+console.log(midKing[1]);
+
+// if(random3[0]<random3[1])
 // let averageKing = average[0] / 3;
 // console.log(averageKing);
 // if(average(index) <)
