@@ -1,6 +1,6 @@
-export default function kdt(name, glass, payment){
+export default function kdt(name, glass, payment) {
   this.id = name;
   this.b = glass;
-  this.c  = payment;
-  this.func = 
+  this.c = payment;
+  this.func = function () {};
 }
